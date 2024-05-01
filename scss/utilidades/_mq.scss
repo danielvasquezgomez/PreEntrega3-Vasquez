@@ -1,0 +1,24 @@
+
+/*mq tablet*/
+
+@media screen and (min-width:600px){
+
+    .carousel-caption{
+        h1{
+            font-size: 45px;
+        }
+   }
+
+}
+
+
+/*mq desktop*/
+@media screen and (min-width:1024px){
+    .carousel-caption{
+        h1{
+            font-size: 65px;
+        
+        }
+    }
+    
+}
