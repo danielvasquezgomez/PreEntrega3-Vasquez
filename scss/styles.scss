@@ -11,17 +11,9 @@ body{
     background-color: #EDEDED;
 }
 
-/*footer*/
-footer{
-    margin-top: 50px;
-    margin-bottom: 0px;
-    text-align: center;
-    justify-content: center;
-    font-size: 0.5em;
-}
-
 //import
-@import "html/navbar";
+@import "html/navbar-footer";
 @import "html/index";
+@import "html/nosotros";
 @import "utilidades/mq";
 
