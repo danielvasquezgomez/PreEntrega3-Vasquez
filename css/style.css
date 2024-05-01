@@ -246,6 +246,83 @@ main div ul {
   padding: 5px 10px;
 }
 
+/*estilos de contacto*/
+form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 100%;
+  margin: 40px 20px 0px 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+.mapa {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+
+.mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lista-contacto {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.lista-contacto li {
+  margin-bottom: 10px;
+}
+
+.contacto {
+  padding: 5px;
+  color: white;
+  background-color: #042449;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+/*mq*/
 /*mq tablet*/
 @media screen and (min-width: 600px) {
   .carousel-caption h1 {
