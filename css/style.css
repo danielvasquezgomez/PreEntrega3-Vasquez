@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*reset*/
 * {
   margin: 0;
@@ -139,7 +140,7 @@ main div ul {
 }
 
 .text-vision-mision {
-  margin: 20px 20px;
+  margin: 40px 20px 0px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -168,6 +169,39 @@ main div ul {
   text-align: center;
 }
 
+/*estilos de servicios*/
+.list-servicios {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.servicios {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: calc(100% - 40px); /* Dos columnas en dispositivos móviles */
+  margin-bottom: 20px;
+}
+.servicios img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.servicios .serv-tit {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.servicios .servs {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
 /*mq tablet*/
 @media screen and (min-width: 600px) {
   .carousel-caption h1 {
@@ -184,6 +218,9 @@ main div ul {
   main div ul {
     font-size: 18px;
   }
+  .list-servicios .servicios {
+    width: calc(50% - 20px);
+  }
 }
 /*mq desktop*/
 @media screen and (min-width: 1024px) {
@@ -192,6 +229,9 @@ main div ul {
   }
   main div ul {
     font-size: 30px;
+  }
+  .list-servicios .servicios {
+    width: calc(33.33% - 20px);
   }
 }
 

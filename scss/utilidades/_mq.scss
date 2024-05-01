@@ -3,12 +3,14 @@
 
 @media screen and (min-width:600px){
 
+    //html index
     .carousel-caption{
         h1{
             font-size: 45px;
         }
     }
 
+    //html nosotros   
     .text-vision-mision{
         flex-direction: row; 
     }
@@ -28,11 +30,17 @@
         }
     }
 
+    //html de servicios*
+    .list-servicios .servicios{
+        width: calc(50% - 20px);
+    }
 }
 
 
 /*mq desktop*/
 @media screen and (min-width:1024px){
+   
+    //html index*
     .carousel-caption{
         h1{
             font-size: 65px;
@@ -40,6 +48,7 @@
         }
     }
 
+    //html nosotros
     main{
         div{
             ul{
@@ -48,5 +57,9 @@
 
         }
     }
-    
+
+    //html de servicios*
+    .list-servicios .servicios{
+        width: calc(33.33% - 20px);
+    }
 }

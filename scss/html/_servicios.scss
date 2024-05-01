@@ -1,0 +1,41 @@
+//todos los estilos para el html servicios
+
+
+/*estilos de servicios*/
+.list-servicios {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicios{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: calc(100% - 40px); /* Dos columnas en dispositivos móviles */
+    margin-bottom: 20px;
+
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .serv-tit {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .servs {
+        text-align: justify;
+        margin-bottom: 15px;
+}
+
+    
+}
+    
