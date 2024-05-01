@@ -30,10 +30,26 @@
         }
     }
 
-    //html de servicios*
+    //html de servicios
     .list-servicios .servicios{
         width: calc(50% - 20px);
     }
+
+    //html de blog
+    .arti{
+        display: block;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+
+    .lista-articulos .articulos{
+        width: calc(50% - 20px);
+    }
+
+    .boton-mas-articulo{
+        display: none;
+    }
+
 }
 
 
@@ -60,6 +76,10 @@
 
     //html de servicios*
     .list-servicios .servicios{
+        width: calc(33.33% - 20px);
+    }
+
+    .lista-articulos .articulos{
         width: calc(33.33% - 20px);
     }
 }

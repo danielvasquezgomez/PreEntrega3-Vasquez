@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*reset*/
 * {
   margin: 0;
@@ -184,7 +183,7 @@ main div ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  width: calc(100% - 40px); /* Dos columnas en dispositivos móviles */
+  width: calc(100% - 40px);
   margin-bottom: 20px;
 }
 .servicios img {
@@ -193,13 +192,58 @@ main div ul {
   height: auto;
   margin-bottom: 15px;
 }
-.servicios .serv-tit {
+
+.serv-tit {
   margin-bottom: 10px;
   font-size: 1.2em;
 }
-.servicios .servs {
+
+.servs {
   text-align: justify;
   margin-bottom: 15px;
+}
+
+/*estilos de blog*/
+.lista-articulos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.articulos {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+}
+.articulos img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.arti-tit {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.arti {
+  display: none;
+}
+
+.boton-mas-articulo {
+  cursor: pointer;
+  color: black;
+  background-color: #dddddd;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 /*mq tablet*/
@@ -221,6 +265,17 @@ main div ul {
   .list-servicios .servicios {
     width: calc(50% - 20px);
   }
+  .arti {
+    display: block;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  .lista-articulos .articulos {
+    width: calc(50% - 20px);
+  }
+  .boton-mas-articulo {
+    display: none;
+  }
 }
 /*mq desktop*/
 @media screen and (min-width: 1024px) {
@@ -231,6 +286,9 @@ main div ul {
     font-size: 30px;
   }
   .list-servicios .servicios {
+    width: calc(33.33% - 20px);
+  }
+  .lista-articulos .articulos {
     width: calc(33.33% - 20px);
   }
 }
