@@ -1,9 +1,11 @@
 //todos los estilos para el html contacto
 
+//import variables
+@import "../utilidades/variables";
 
 /*estilos de contacto*/
 form {
-    background-color: white;
+    background-color: $color-contraste;
     border-radius: 10px; // Esquinas redondeadas
     padding: 20px; // Espaciado interno
     max-width: 100%; // Ancho máximo del formulario, ajusta según tus necesidades
@@ -26,8 +28,8 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    background-color: #007bff; // Color de fondo azul
-    color: white; // Color de texto blanco
+    background-color: $color-clic; // Color de fondo azul
+    color: $color-contraste; // Color de texto blanco
     padding: 10px 20px; // Espaciado interno
     border: none; // Sin borde
     border-radius: 5px; // Esquinas redondeadas
@@ -36,7 +38,7 @@ input[type="submit"] {
   }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: $color-clic;
 } 
 
 .mapa{
@@ -66,8 +68,8 @@ input[type="submit"]:hover {
   
 .contacto {
     padding: 5px; // Espaciado interno para la sección
-    color: white;
-    background-color: #042449; // Color de fondo para resaltar la sección
+    color: $color-contraste;
+    background-color: $color-empresa-1; // Color de fondo para resaltar la sección
     border-radius: 10px; // Esquinas redondeadas
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Sombra suave alrededor de la sección
     margin: 20px;

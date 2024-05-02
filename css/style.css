@@ -10,7 +10,6 @@ body {
   background-color: #EDEDED;
 }
 
-/*navbar y footer*/
 /*navbar*/
 header .bg-white {
   background-color: white;
@@ -169,7 +168,7 @@ main div ul {
 }
 
 /*estilos de servicios*/
-.list-servicios {
+.list-serv-arti {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -177,8 +176,8 @@ main div ul {
   gap: 20px;
 }
 
-.servicios {
-  background-color: #f8f9fa;
+.servicios-articulos {
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -186,7 +185,7 @@ main div ul {
   width: calc(100% - 40px);
   margin-bottom: 20px;
 }
-.servicios img {
+.servicios-articulos img {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
@@ -204,7 +203,7 @@ main div ul {
 }
 
 /*estilos de blog*/
-.lista-articulos {
+.list-serv-arti {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -212,8 +211,8 @@ main div ul {
   gap: 20px;
 }
 
-.articulos {
-  background-color: #f8f9fa;
+.servicios-articulos {
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -221,7 +220,7 @@ main div ul {
   width: calc(100% - 40px);
   margin-bottom: 20px;
 }
-.articulos img {
+.servicios-articulos img {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
@@ -240,7 +239,7 @@ main div ul {
 .boton-mas-articulo {
   cursor: pointer;
   color: black;
-  background-color: #dddddd;
+  background-color: #EDEDED;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
@@ -271,7 +270,7 @@ input[type=text], input[type=email], textarea {
 }
 
 input[type=submit] {
-  background-color: #007bff;
+  background-color: #0056b3;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -339,7 +338,7 @@ h3 {
   main div ul {
     font-size: 18px;
   }
-  .list-servicios .servicios {
+  .list-serv-arti .servicios-articulos {
     width: calc(50% - 20px);
   }
   .arti {
@@ -347,7 +346,7 @@ h3 {
     text-align: justify;
     margin-bottom: 15px;
   }
-  .lista-articulos .articulos {
+  .list-serv-arti .servicios-articulos {
     width: calc(50% - 20px);
   }
   .boton-mas-articulo {
@@ -362,10 +361,10 @@ h3 {
   main div ul {
     font-size: 30px;
   }
-  .list-servicios .servicios {
+  .list-serv-arti .servicios-articulos {
     width: calc(33.33% - 20px);
   }
-  .lista-articulos .articulos {
+  .list-serv-arti .servicios-articulos {
     width: calc(33.33% - 20px);
   }
 }

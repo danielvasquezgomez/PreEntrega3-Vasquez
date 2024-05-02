@@ -1,5 +1,7 @@
 //todos los estilos para el html nosotros
 
+//import variables
+@import "../utilidades/variables";
 
 /*estilos de nosotros*/
 /*main*/
@@ -17,7 +19,7 @@ main{
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: white;
+            color: $color-contraste;
             padding: 1px;
             text-align: center;
             font-size: 14px;
@@ -35,10 +37,10 @@ main{
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: $color-contraste;
     padding: 10px;
     text-align: center;
-    background-color: #0424492f;
+    background-color: $color-banner;
     border-radius: 10px;
 }
 
@@ -74,23 +76,23 @@ main{
 }
 
 .vision{
-    background-color: #042449;
-    color: #EDEDED;
+    background-color: $color-empresa-1;
+    color: $color-fondo;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-    border: 5px solid white;
+    border: 5px solid $color-contraste;
 }
 
 .mision{
-    background-color: #B24343;
-    color: #EDEDED;
+    background-color: $color-empresa-2;
+    color: $color-fondo;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-    border: 5px solid white;
+    border: 5px solid $color-contraste;
 }
 
 .vision-mision{

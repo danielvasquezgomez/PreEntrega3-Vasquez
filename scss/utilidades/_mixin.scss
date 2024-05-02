@@ -1,0 +1,34 @@
+
+
+@mixin lista{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-serv-arti{
+    @include lista
+}
+
+@mixin diseno-lista{
+    background-color: $color-contraste;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    } 
+}
+
+.servicios-articulos{
+    @include diseno-lista
+}

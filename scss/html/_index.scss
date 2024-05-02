@@ -1,5 +1,7 @@
 //todos los estilos para el html index (pagina inicio)
 
+//import variables
+@import "../utilidades/variables";
 
 /*estilos de index*/
 /*carousel*/
@@ -26,10 +28,10 @@ section{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); 
-    border: 5px solid white;
-    background-color: #042449; 
+    border: 5px solid $color-contraste;
+    background-color: $color-empresa-1; 
     h2{
-        color: white;
+        color: $color-contraste;
     }
 }
 
